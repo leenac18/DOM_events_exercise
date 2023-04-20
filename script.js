@@ -16,7 +16,7 @@ function createListElement() {
 	addDeleteButton(li);
 	listItems = document.querySelectorAll("li");
 	xButtons = ul.querySelectorAll("button");
-	listenMarkDone(li); //This is not working because it's calling the function twice I think. And toggling "done" twice.
+	listenMarkDone(li);
 	listenDeleteButton();
 }
 
